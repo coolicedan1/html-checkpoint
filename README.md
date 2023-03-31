@@ -9,8 +9,16 @@ my web page portfolio .
 
 Html.
 
-```
-```
+## Getting Started
+
+
+Setup
+
+Clone this repository to your desired folder:
+
+go to the project directory
+
+Run the command
 
 ## Author
 Daniel Isaac Aruwa
