@@ -1,33 +1,32 @@
 # Title
 
-Portfolio
+### Portfolio
 
-my web page portfolio .
+My web page portfolio  .
 
 
 ## Built With
 
-Html.
+- Html.
 
 ## Getting Started
 
 
-Setup
+### Setup
 
-Clone this repository to your desired folder:
+- Clone this repository to your desired folder.
 
-go to the project directory
+- go to the project directory.
 
-Run the command
+- Run the command.
 
 ## Author
 Daniel Isaac Aruwa
 
-Github: @coolicedan1
+- Github:[@coolicedan1](https://github.com/coolicedan1)
+- Twitter:[@coolicedan](https://twitter.com/home)
 
 
-```
-```
 
 ## Contributing
 
