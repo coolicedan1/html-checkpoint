@@ -5,7 +5,7 @@ My web page portfolio
 
 # Live_Preview
 
- [Live Preview](https://coolicedan1.github.io/html-checkpoint/)
+ [Live Preview](https://raw.githack.com/coolicedan1/html-css-checkpoint/css/index.html)
 - 
 
 
