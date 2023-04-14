@@ -1,0 +1,171 @@
+/* unorderlist & active section*/
+.active {
+  display: inline;
+  margin-top: none;
+  padding:none;
+  list-style-type:none;
+  width: 60px;
+  overflow: hidden;
+  background-color: black;
+  background-color: #04AA6D;
+}
+
+/* hover on list&anchor*/
+li a:hover {
+  background-color: #111;
+}
+
+/* list & anchor section*/
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+/* this is list section*/
+li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+/* my video*/
+#video{
+  text-align: justify;
+}
+
+/* my picture */
+.mypic {
+  float: right;
+  margin-right: 5px;
+}
+
+/* this is contact me section*/
+#contact{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-top: 10px;
+  float: right;
+  font-style: bold;
+  color: #1e3d59;
+}
+
+/* this is my work section*/
+#work {
+  color: #ffc13b;
+  text-align: justify;  
+  letter-spacing: 5px;
+}
+
+/* this is my about section*/
+#about{
+  color: #ffc13b;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* this is the resume section*/
+aside .resume{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-top: 30px;
+  float: right;
+  font-style: bold;
+  color: #1e3d59;
+}
+
+/* this is the html-body section*/
+body{
+  margin-left: 15px;
+  line-height: normal;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient( to bottom,   #1e3d59 0%,  #1e3d59  45%,   #f5f0e1 50%,   #f5f0e1 100%);
+}
+
+/* this is my h1/h3 section*/
+#hero{
+  color:#ffc13b;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 40px;
+
+}
+
+/* this is the universal*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* this is the footer section*/
+aside footer{
+  font-style:bold ;
+  color:white;
+  background-color: red;
+  display: block;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+/* this is email in footer*/
+.email {
+float: right;
+margin-right: 5px;
+color: #f5f0e1;
+}
+
+/* this is the author in footer */
+.Author {
+text-align:left;
+}
+
+/* this is my textarea */
+textarea {
+  border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-align: center;
+  margin-top: 8px;
+  background-color: #f5f0e1;
+  border-style: dashed;
+}
+
+/* this is my work experience section*/
+.workE {
+  color: #1e3d59;
+  text-align: justify;
+}
+
+/* this is my education section*/
+.education{
+  color: #1e3d59;
+  text-align: justify;
+}
+
+/* my contact me button*/
+.button2 {
+  padding: 15px;
+  font-size: 13px;
+  text-align: center;
+  background-color: green;
+  border-radius: 10px;
+  border:none ;
+  color: white;
+}
+
+/* this is my work title*/
+.Wtitle{
+  text-align: center;
+}
+
+/* top of the page*/
+.toppage {
+  color: aqua;
+}
+

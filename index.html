@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>my portfolio</title>
+  <title>My Portfolio</title>
+  <link rel="icon" type="image" href="html-pic-vid/imagefav.jpg">
 </head>
 <body>
   <!---this is my navbar section-->
-  <div class="topnav">
-    <a class="active" href="#home.html">Home</a>
-    <a href="#work">work</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="#resume">Resume</a>
-  </div> 
-  <!---this is my hero page section-->
-  <center>
-   <div class="hero-image">
+   <ul class="active" id="topnav">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a class="active" href="#work">work</a></li>
+    <li style="float: center;"><a class="active" href="#contact">Contact</a></li>
+    <li style="float: right;"><a class="active" href="#resume">Resume</a></li>
+    <li style="float:right ;"><a class="active" href="#about">About</a></li>
+   </ul><br>
+   <!---this is my hero page section-->
+   <div class="hero-image" id="hero">
     <div class="hero-text">
-      <h1>I am Daniel Isaac Aruwa</h1>
-      <p>And I'm a web developer</p>
-      <button>View portfolio</button>
+      <h1>I AM DAINEL ISAAC ARUWA</h1>
+      <p><h3>AND I'M A WEB DEVELOPER</h3></p>
+      <img class="mypic" src="html-pic-vid/imagefav.jpg" height="300" width="auto">
     </div>
    </div> 
-  </center>
- <!---this is my video section-->
-  <center>
-   <div class="video">
-    <video width="250" height="500" controls>
-     <source src="video 4 html.mp4" type="video/mp4">please check the video extension.
+   <!---this is my video section-->
+   <div id="video">
+    <video width="auto" height="300" controls>
+     <source src="html-pic-vid/vid1.mp4" type="video/mp4">please check the video extension.
     </video>
    </div>
-  </center>
-    <!---about section-->
+  <!---about section-->
   <aside>
     <div class="about" id="about">
      <h3>ABOUT</h3>
-     <P> I AM A DEVELOPER BASED IN NIGERIA.I HAVE MANY YEARS OF EXPERIENCE IN CONSULTING IN ALL AREAS OF DIGITAL.I LOVE NATURE,MOVIES,PIZZA AND ART.</P>
-    </div>
+     <P> I AM A DEVELOPER BASED IN NIGERIA.<p>I HAVE MANY YEARS OF EXPERIENCE IN CONSULTING AND IN ALL AREAS OF DIGITAL.<P>I LOVE NATURE,MOVIES,PIZZA AND ART.</P>
+    </div><br>
   </aside>
   <aside>
    <div class="work" id="work">
-    <h3>WORK</h3>
-   <div>
-    <img src="web development logo.jpg" height="" width="40">Web Development 
-    </div>
-   </div>
-   <div><br>
-    <img src="web design logo.jpg" height="" width="30">Web Design 
-   </div>
-   <div><br>
-    <img src="video editing logo.png" height="" width="30">Video Editing
-   </div>
-   <div><br>
-    <img src="photography logo.jpg" height="" width="30">Photography
-   </div>
-   <div><br>
-    <img src="app developing logo.png" height="" width="40">App Developing
+    <h3 class="Wtitle"><b>WORK </b><br>
+    <img src="html-pic-vid/develop2.png" height="" width="20"> WEB EVELOPING 
+    <img src="html-pic-vid/web icon.jpg" height="" width="20"> WEB DESIGN
+    <img src="html-pic-vid/editing icon.png" height="" width="20"> VIDEO EDITING
+    <img src="html-pic-vid/camera-icon-21.png" height="" width="30"> PHOTOGRAPHY
+    <img src="html-pic-vid/Apple-Logo1.png" height="" width="40"> APP DEVELOPING
    </div>
   </aside>
   <aside>
+  <!---my contactact me section-->
    <div class="contact" id="contact">
     <h3>CONTACT</h3>
   <form>
@@ -81,13 +73,13 @@
    </label>
      <br>
    <label for="">Country</label>
-   <select>
+   <select><br>
     <option value="">Nigeria</option>
     <option value="">Ghana</option>
-    <option value="">South Africa</option>
-   </select>             
-     <br>
-   <button>Please Submit</button>
+    <option value="">South Africa</option><br>
+   </select> <br> 
+     <textarea name="comment" form="usrform" rows="10" width="">Enter text here...</textarea><br>           
+   <button class="button2" >Please Submit</button>
   </form>
   </div>
    <aside>
@@ -95,46 +87,40 @@
      <h3>RESUME</h3>
       <p><strong>key summary</strong> <br>I have worked with big firms over the years and have always delivered positively as regard to all the jobs assigned. i can work as a full-stack developer or a front-end developer.</p>
        <!---contact information on resume-->
-        <b><h4>Daniel Isaac Aruwa</h4></b>
-         <img src="home logo.png" height="" width="29"><br>Nigeria,Lagos.<br>
-         <img src="WORK LOGO.png" height="" width="29"><br>Web Developer.<br>
-         <img src="email logo.png" height="" width="29"><br>coolicedan@gmail.com.<br>
-         <img src="phone number logo.png" height="" width="20"><br>08131670027<br>
+        <img src="html-pic-vid/home logo.png" height="" width="29"><br>Nigeria,Lagos.<br>
+        <img src="html-pic-vid/WORK LOGO.png" height="" width="29"><br>Web Developer.<br>
+        <img src="html-pic-vid/email logo.png" height="" width="29"><br>coolicedan@gmail.com.<br>
+        <img src="html-pic-vid/phone number logo.png" height="" width="20"><br>08131670027<br>
    </div>
    <!---work experience in resume-->
-   <div><br>
-    <img src="WORK LOGO.png" height="" width="50"> WORK EXPERIENCE
-     <h4> Front-End developer / Simbanet.com</h4>
-      <img src="calender logo.png" height="" width="15">  March 2023 <strong>Current</strong>
-       <p> I work as a front-end developer. my responsibility is to code the front-end side and also check codes with bugs and fix it.</p>
-   </div>
-   <div><br>
+   <div class="workE"><br>
+    <img src="html-pic-vid/work-experience-2.png" height="" width="30"> <b>WORK EXPERIENCE</b>
+    <h4> Front-End developer / Simbanet.com</h4>
+    <img src="html-pic-vid/calender logo.png" height="" width="15">  March 2023 <strong>Current</strong>
+    <p> I work as a front-end developer. my responsibility is to code the front-end side and also check codes with bugs and fix it.</p>
+    <br>
     <h4> Web developer / fintech.com</h4>
-     <img src="calender logo.png" height="" width="15"> Jan-2020  Dec-2022
-      <p> I worked as a full-stack web developer. my responsibility is to code both front-end and back-end and also check codes with bugs and fix it.</p>
+    <img src="html-pic-vid/calender logo.png" height="" width="15"> Jan-2020  Dec-2022
+    <p> I worked as a full-stack web developer. my responsibility is to code both front-end and back-end and also check codes with bugs and fix it.</p>
    </div>
-   <div>
-    <img src="education logo.png" height="" width="40"> EDUCATION
+   <div class="education">
+    <img src="html-pic-vid/education logo.png" height="" width="40"><b>EDUCATION</b> 
      <h4> Gomycode.co </h4>
-      <img src="calender logo.png" height="" width="15"> March-2023 July-2023
-       <p> full-stack bootcamp</p>
-   </div>
-   <div>
+     <img src="html-pic-vid/calender logo.png" height="" width="15"> March-2023 July-2023
+     <p> full-stack bootcamp</p><br>
      <h4> Federal poly Bida</h4>
-      <img src="calender logo.png" height="" width="15"> Sept-2014 Sept-2015
-       <p> OND</p>
+     <img src="html-pic-vid/calender logo.png" height="" width="15"> Sept-2014 Sept-2015
+     <p> OND</p>
    </div>
   </aside>
   <aside>
-   <div class="home" id="home.html">
-   </div>
   </aside>
-  <center>
+  <!---This is my footer section-->
    <footer>
-    <p>Author: Daniel Isaac Aruwa<br>
-     <a href="coolicedan@gmail.com">Coolicedan@gmail.com</a><br></p>
-      <p>Copyrights@2023</p>
+    <p class="Author">Author: Daniel Isaac Aruwa
+     <a class="email" href="https://coolicedan@gmail.com">Coolicedan@gmail.com</a></p>
+      <p>Copyrights(c)2023</p>
+      <a class="toppage" href="#top">top of the page</a>
    </footer>
-  </center>
 </body>
 </html>
