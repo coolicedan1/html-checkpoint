@@ -1,13 +1,30 @@
+/* this is the universal*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* this is the html-body section*/
+body{
+  
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient( to bottom,   #1e3d59 100%,  #1e3d59  10%,   #f5f0e1 20%,   #f5f0e1 20%);
+}
 /* unorderlist & active section*/
-.active {
+#topnav {
   display: inline;
-  margin-top: none;
+  margin-top:none;
   padding:none;
   list-style-type:none;
   width: 60px;
   overflow: hidden;
-  background-color: black;
   background-color: #04AA6D;
+  
 }
 
 /* hover on list&anchor*/
@@ -22,7 +39,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   color: white;
-  background-color: black;
+  background-color:  #04AA6D;
 }
 
 /* this is list section*/
@@ -50,7 +67,7 @@ li {
   margin-top: 10px;
   float: right;
   font-style: bold;
-  color: #1e3d59;
+  color: #ffc13b;
 }
 
 /* this is my work section*/
@@ -75,15 +92,7 @@ aside .resume{
   margin-top: 30px;
   float: right;
   font-style: bold;
-  color: #1e3d59;
-}
-
-/* this is the html-body section*/
-body{
-  margin-left: 15px;
-  line-height: normal;
-  font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient( to bottom,   #1e3d59 0%,  #1e3d59  45%,   #f5f0e1 50%,   #f5f0e1 100%);
+  color: #ffc13b;
 }
 
 /* this is my h1/h3 section*/
@@ -95,23 +104,21 @@ body{
 
 }
 
-/* this is the universal*/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* this is the footer section*/
 aside footer{
   font-style:bold ;
   color:white;
-  background-color: red;
+  background-color: red ;
   display: block;
   text-align: center;
   width: 100%;
   letter-spacing: 2px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  opacity: 70%;
+  
 }
+
 
 /* this is email in footer*/
 .email {
@@ -121,7 +128,7 @@ color: #f5f0e1;
 }
 
 /* this is the author in footer */
-.Author {
+.author {
 text-align:left;
 }
 
@@ -138,13 +145,13 @@ textarea {
 
 /* this is my work experience section*/
 .workE {
-  color: #1e3d59;
+  color: #ffc13b;
   text-align: justify;
 }
 
 /* this is my education section*/
 .education{
-  color: #1e3d59;
+  color: #ffc13b;
   text-align: justify;
 }
 
@@ -160,12 +167,13 @@ textarea {
 }
 
 /* this is my work title*/
-.Wtitle{
+.wtitle{
   text-align: center;
 }
 
 /* top of the page*/
 .toppage {
   color: aqua;
+  margin-bottom: 20px;
 }
 

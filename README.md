@@ -12,7 +12,8 @@ My web page portfolio
 
 ## Built With
 
-- Html.
+- HTML.
+- CSS.
 
 ## Getting Started
 
